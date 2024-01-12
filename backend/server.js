@@ -19,7 +19,7 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://sl-chat.onrender.com',
     credentials: true,
 }));
 
@@ -80,7 +80,7 @@ const io = require('socket.io')(server, {
     //amount of time it will wait while being inactive. If for 60 secs no message is sent, connection will be closed to save bandwidth
     pingTimeout: 60000,
     cors: {
-        origin: "http://localhost:5173",
+        origin: "https://sl-chat.onrender.com",
     },
 });
 

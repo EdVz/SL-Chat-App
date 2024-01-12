@@ -7,7 +7,7 @@ import NotFound from './pages/NotFound';
 
 function App() {
 
-  axios.defaults.baseURL = "http://localhost:3000";
+  axios.defaults.baseURL = "https://sl-chat.onrender.com";
   axios.defaults.withCredentials = true;
 
   return (

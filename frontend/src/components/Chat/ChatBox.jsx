@@ -9,7 +9,7 @@ import { getSender } from '../../config/ChatLogics';
 import io from "socket.io-client";
 import InappropriateMess from './InappropriateMess';
 
-const ENDPOINT = "http://localhost:3000";
+const ENDPOINT = "https://sl-chat.onrender.com";
 let socket, selectedChatCompare;
 
 export default function ChatBox() {
