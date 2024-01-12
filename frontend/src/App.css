@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: 'Roboto';
+}
+
+.home {
+    background-color: #4d4de6;
+}
+
+.panel,
+.contact-select,
+.main-color {
+    /* background-color: #4d4de6; */
+    background: linear-gradient(to bottom, #4d4de6, #757575);
+}
+
+.chat-title {
+    background-color: #4d4de6;
+}
+
+.sender {
+    background: linear-gradient(to right, #4d4de6, #4c4cd1);
+}
+
+.receiver {
+    background-color: #e0e0e0;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0.281);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
